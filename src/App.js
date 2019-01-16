@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
-import { BrowserRouter, Link, Route } from 'react-router-dom';
+import React, { Component } from "react";
+import { BrowserRouter, Link, Route } from "react-router-dom";
 
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
-import ReactDataGrid from './ReactDataGrid';
+import ReactDataGrid from "./routes/react-data-grid";
 
 class App extends Component {
   render() {
