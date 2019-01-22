@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import { BrowserRouter, Link, Route } from "react-router-dom";
 
-import logo from "./logo.svg";
 import "./App.css";
+
+import PrimeReact from "./routes/primereact";
 
 class App extends Component {
   render() {
