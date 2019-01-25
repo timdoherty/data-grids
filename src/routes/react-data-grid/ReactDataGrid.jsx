@@ -111,7 +111,7 @@ class ReactDataGridDemo extends Component {
   };
 
   render() {
-    const { rows, groupBy } = this.state;
+    // const { rows, groupBy } = this.state; --- These weren't used, giving warning, so commented -Greg
     const groupedRows = Data.Selectors.getRows(this.state);
     console.log({ groupedRows });
 
